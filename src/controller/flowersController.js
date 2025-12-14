@@ -12,7 +12,7 @@ class FlowersController {
     res.status(200).json(flowers);
   }
   getAllFlowers(req, res) {
-    const flowers = flowersService.findAllFlowers;
+    const flowers = flowersService.findAllFlowers();
     res.status(200).json(flowers);
   }
   getFlower(req, res) {
