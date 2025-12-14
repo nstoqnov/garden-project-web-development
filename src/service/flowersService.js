@@ -6,7 +6,9 @@ class FlowersService {
       { id: "3", name: "Tulip", color: "Red" },
     ];
   }
-
+  findAllFlowers() {
+    return this.flowers;
+  }
   findAllByColor(color) {
     return this.flowers.filter(
       (flower) => flower.color.toLowerCase() === color.toLowerCase()
