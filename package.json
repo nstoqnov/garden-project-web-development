@@ -1,0 +1,15 @@
+{
+  "name": "garden-project-web-development",
+  "version": "1.0.0",
+  "description": "University project for Web development",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
